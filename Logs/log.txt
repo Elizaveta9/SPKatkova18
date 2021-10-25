@@ -1,0 +1,10 @@
+окт. 25, 2021 2:31:33 PM com.company.Multiplaer2 mult
+INFO: Program started
+окт. 25, 2021 2:31:33 PM com.company.Multiplaer2 mult
+INFO: Expression is taken from file expression.txt
+окт. 25, 2021 2:31:33 PM com.company.Multiplaer2 mult
+INFO: Expression » 6*7*3
+окт. 25, 2021 2:31:33 PM com.company.Multiplaer2 mult
+INFO: Multiplication result » 1260.0
+окт. 25, 2021 2:31:33 PM com.company.Multiplaer2 mult
+INFO: Program finished
