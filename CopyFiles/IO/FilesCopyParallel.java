@@ -20,7 +20,7 @@ public class FilesCopyParallel {
         FileCopyTread secondFile = new FileCopyTread(sourceSecond, destSecond);
         secondFile.start();
 
-        //ожидание завершиния потоков копирования для корректного замера времени
+        //ожидание завершения потоков копирования для корректного замера времени
         try {
             firstFile.join();
             secondFile.join();
