@@ -47,8 +47,7 @@ class FileCopyTread extends Thread {
     public void run() {
         try (BufferedReader br1 = new BufferedReader(new FileReader(source));
              BufferedWriter bw1 = new BufferedWriter(new FileWriter(dest))) {
-
-            // копирование первого файла
+            
             while ((line = br1.readLine()) != null) {
                 bw1.write(line);
             }
