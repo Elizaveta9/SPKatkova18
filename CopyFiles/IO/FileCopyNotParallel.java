@@ -4,7 +4,7 @@ import java.io.*;
 
 public class FileCopyNotParallel {
     public static void main(String[] args) {
-        // Назначение источника и конечного пути копирования первого файла
+        // Назначение источника и конечного пути копирования первого файлa
         File sourceFirst = new File("C:\\Users\\Elizaveta\\IdeaProjects\\title\\src\\com\\company\\files\\tagsREADABLE.txt");
         File destFirst = new File("C:\\Users\\Elizaveta\\IdeaProjects\\ProjectForFunzis\\src\\com\\company\\FirstFileToCopy2.txt");
 
