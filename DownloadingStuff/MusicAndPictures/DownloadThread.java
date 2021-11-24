@@ -10,11 +10,13 @@ import java.net.URL;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 
+@Class(name = "DownloadThread", author = "Elizaveta K")
 public class DownloadThread extends Thread {
     private String link;
     private String path;
     private static int threadCounter; // Счетчик потоков (всего 2 потока)
 
+    @Constructor(forClass = "DownloadThread")
     DownloadThread(String link, String path) {
         this.link = link;
         this.path = path;
@@ -35,7 +37,6 @@ public class DownloadThread extends Thread {
             stream.close();
             byteChannel.close();
             System.out.println("Successfully downloaded: " + path);
-
             threadCounter++;
 
             // Когда все два потока закончили загрузку, включается музыка
