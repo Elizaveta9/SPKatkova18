@@ -1,4 +1,4 @@
-package ru.demo.downloadmusic;
+package com.company;
 
 import javazoom.jl.decoder.JavaLayerException;
 import javazoom.jl.player.Player;
@@ -10,12 +10,22 @@ import java.net.URL;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 
+/**
+ * Класс потока загрузки
+ * @author Елизавета
+ */
 @Class(name = "DownloadThread", author = "Elizaveta K")
 public class DownloadThread extends Thread {
     private String link;
     private String path;
     private static int threadCounter; // Счетчик потоков (всего 2 потока)
 
+    /**
+     * Конструктор класса DownloadThread
+     *
+     * @param link ссылка на объект из сети
+     * @param path путь к файлу на компьютере
+     */
     @Constructor(forClass = "DownloadThread")
     DownloadThread(String link, String path) {
         this.link = link;

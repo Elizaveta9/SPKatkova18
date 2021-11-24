@@ -1,9 +1,13 @@
-package ru.demo.downloadmusic;
+package com.company;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+/**
+ * Основной класс запускающий программу
+ * @author Елизавета
+ */
 @Class(name = "MP3Player", author = "Elizaveta K")
 public class MP3Player {
 
