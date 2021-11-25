@@ -21,7 +21,7 @@ public class Encryptor {
         String newClassName = "DefinitelyNotAClassName";
         String fullNameClass;
 
-        // Переменные с путями к файлу-источнику и к будующему обработанному файлу
+        // Переменные с путями к файлу-источнику и к будущему обработанному файлу
         final String SCR_FILE = "C:/Users/Elizaveta/IdeaProjects/DownloadMusicAndPictures/src/com/company/DownloadThread.java";
         final String ENCRYPTED_FILE_DEST = "C:/Users/Elizaveta/IdeaProjects/DownloadMusicAndPictures/src/com/company/";
 
